@@ -1,0 +1,12 @@
+syntax = "proto3";
+package msg;
+
+
+message ReqTT {
+	int32 ClientID = 1;	
+};
+
+message TTPack {
+	int32 Index = 1;
+	int64 TimeStamp = 2;
+};
